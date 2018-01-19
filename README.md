@@ -5,6 +5,8 @@ authentication of users.
 
 This is a learning project.
 
+In order to access the production version go here: https://abelhect.github.io/appket
+
 
 --------------------------
 Dev Notes Below:
