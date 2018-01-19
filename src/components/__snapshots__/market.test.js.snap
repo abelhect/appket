@@ -1,0 +1,439 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`All tests for the Market Component renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Unknown
+    list={
+        Array [
+            Object {
+              "intro": "intro 1",
+              "name": "name 1",
+              "thumbnail": "thumbnail 1",
+            },
+            Object {
+              "intro": "intro 2",
+              "name": "name 2",
+              "thumbnail": "thumbnail 2",
+            },
+          ]
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "bsClass": "container",
+      "children": Array [
+        <p
+          className="App-intro"
+>
+          <em>
+                    Welcome to Papo’s App Marketplace, where you will find a library of web and mobile applications that will make your life easier.
+          </em>
+</p>,
+        <Row
+          bsClass="row"
+          className="app-row"
+          componentClass="div"
+>
+          <Col
+                    bsClass="col"
+                    className="app-col"
+                    componentClass="div"
+                    md={3}
+                    sm={6}
+                    xs={12}
+          >
+                    <Thumbnail
+                              alt="name 1"
+                              bsClass="thumbnail"
+                              href="#"
+                              src="thumbnail 1"
+                    />
+          </Col>
+          <Col
+                    bsClass="col"
+                    className="app-col"
+                    componentClass="div"
+                    md={3}
+                    sm={6}
+                    xs={12}
+          >
+                    <Thumbnail
+                              alt="name 2"
+                              bsClass="thumbnail"
+                              href="#"
+                              src="thumbnail 2"
+                    />
+          </Col>
+</Row>,
+      ],
+      "componentClass": "div",
+      "fluid": false,
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <em>
+            Welcome to Papo’s App Marketplace, where you will find a library of web and mobile applications that will make your life easier.
+</em>,
+          "className": "App-intro",
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Welcome to Papo’s App Marketplace, where you will find a library of web and mobile applications that will make your life easier.",
+          },
+          "ref": null,
+          "rendered": "Welcome to Papo’s App Marketplace, where you will find a library of web and mobile applications that will make your life easier.",
+          "type": "em",
+        },
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "bsClass": "row",
+          "children": Array [
+            <Col
+              bsClass="col"
+              className="app-col"
+              componentClass="div"
+              md={3}
+              sm={6}
+              xs={12}
+>
+              <Thumbnail
+                            alt="name 1"
+                            bsClass="thumbnail"
+                            href="#"
+                            src="thumbnail 1"
+              />
+</Col>,
+            <Col
+              bsClass="col"
+              className="app-col"
+              componentClass="div"
+              md={3}
+              sm={6}
+              xs={12}
+>
+              <Thumbnail
+                            alt="name 2"
+                            bsClass="thumbnail"
+                            href="#"
+                            src="thumbnail 2"
+              />
+</Col>,
+          ],
+          "className": "app-row",
+          "componentClass": "div",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "col",
+              "children": <Thumbnail
+                alt="name 1"
+                bsClass="thumbnail"
+                href="#"
+                src="thumbnail 1"
+/>,
+              "className": "app-col",
+              "componentClass": "div",
+              "md": 3,
+              "sm": 6,
+              "xs": 12,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "class",
+              "props": Object {
+                "alt": "name 1",
+                "bsClass": "thumbnail",
+                "href": "#",
+                "src": "thumbnail 1",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "class",
+            "props": Object {
+              "bsClass": "col",
+              "children": <Thumbnail
+                alt="name 2"
+                bsClass="thumbnail"
+                href="#"
+                src="thumbnail 2"
+/>,
+              "className": "app-col",
+              "componentClass": "div",
+              "md": 3,
+              "sm": 6,
+              "xs": 12,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "alt": "name 2",
+                "bsClass": "thumbnail",
+                "href": "#",
+                "src": "thumbnail 2",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "bsClass": "container",
+        "children": Array [
+          <p
+            className="App-intro"
+>
+            <em>
+                        Welcome to Papo’s App Marketplace, where you will find a library of web and mobile applications that will make your life easier.
+            </em>
+</p>,
+          <Row
+            bsClass="row"
+            className="app-row"
+            componentClass="div"
+>
+            <Col
+                        bsClass="col"
+                        className="app-col"
+                        componentClass="div"
+                        md={3}
+                        sm={6}
+                        xs={12}
+            >
+                        <Thumbnail
+                                    alt="name 1"
+                                    bsClass="thumbnail"
+                                    href="#"
+                                    src="thumbnail 1"
+                        />
+            </Col>
+            <Col
+                        bsClass="col"
+                        className="app-col"
+                        componentClass="div"
+                        md={3}
+                        sm={6}
+                        xs={12}
+            >
+                        <Thumbnail
+                                    alt="name 2"
+                                    bsClass="thumbnail"
+                                    href="#"
+                                    src="thumbnail 2"
+                        />
+            </Col>
+</Row>,
+        ],
+        "componentClass": "div",
+        "fluid": false,
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <em>
+              Welcome to Papo’s App Marketplace, where you will find a library of web and mobile applications that will make your life easier.
+</em>,
+            "className": "App-intro",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "Welcome to Papo’s App Marketplace, where you will find a library of web and mobile applications that will make your life easier.",
+            },
+            "ref": null,
+            "rendered": "Welcome to Papo’s App Marketplace, where you will find a library of web and mobile applications that will make your life easier.",
+            "type": "em",
+          },
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "bsClass": "row",
+            "children": Array [
+              <Col
+                bsClass="col"
+                className="app-col"
+                componentClass="div"
+                md={3}
+                sm={6}
+                xs={12}
+>
+                <Thumbnail
+                                alt="name 1"
+                                bsClass="thumbnail"
+                                href="#"
+                                src="thumbnail 1"
+                />
+</Col>,
+              <Col
+                bsClass="col"
+                className="app-col"
+                componentClass="div"
+                md={3}
+                sm={6}
+                xs={12}
+>
+                <Thumbnail
+                                alt="name 2"
+                                bsClass="thumbnail"
+                                href="#"
+                                src="thumbnail 2"
+                />
+</Col>,
+            ],
+            "className": "app-row",
+            "componentClass": "div",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "col",
+                "children": <Thumbnail
+                  alt="name 1"
+                  bsClass="thumbnail"
+                  href="#"
+                  src="thumbnail 1"
+/>,
+                "className": "app-col",
+                "componentClass": "div",
+                "md": 3,
+                "sm": 6,
+                "xs": 12,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": "0",
+                "nodeType": "class",
+                "props": Object {
+                  "alt": "name 1",
+                  "bsClass": "thumbnail",
+                  "href": "#",
+                  "src": "thumbnail 1",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "class",
+              "props": Object {
+                "bsClass": "col",
+                "children": <Thumbnail
+                  alt="name 2"
+                  bsClass="thumbnail"
+                  href="#"
+                  src="thumbnail 2"
+/>,
+                "className": "app-col",
+                "componentClass": "div",
+                "md": 3,
+                "sm": 6,
+                "xs": 12,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "class",
+                "props": Object {
+                  "alt": "name 2",
+                  "bsClass": "thumbnail",
+                  "href": "#",
+                  "src": "thumbnail 2",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+    "disableLifecycleMethods": true,
+  },
+}
+`;
