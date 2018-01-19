@@ -1,5 +1,14 @@
-Other packages that are installed in this template:
-NOTE: Download and install the latest version of node js (https://nodejs.org/en/).  Then run "npm update" before copying and pasting in your new app folder.
+Description:
+AppKet is my first attempt to creating a web app that will give you access to
+basic web daily tasks utilities.  It leverages Firebase MBaaS for database and
+authentication of users.
+
+This is a learning project.
+
+
+--------------------------
+Dev Notes Below:
+Download and install the latest version of node js (https://nodejs.org/en/).  Then run "npm update" before copying and pasting in your new app folder.
 
 Dev Env Dependencies:
   npm install --save-dev
