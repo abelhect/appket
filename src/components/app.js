@@ -11,6 +11,7 @@ import Menu from './menu';
 import Market from './market';
 import SignIn from './signin';
 import SignUp from './signup';
+import Pomodoro from './pomodoro/pomodoro';
 
 const store = createStore(allReducers);
 
@@ -30,13 +31,13 @@ const App = (props) => (
     <div className="App">
 
       <Provider store={store}>
-
         <Router path="/" history={history}>
           <div>
             <Menu logo="Papo's AppKet"/>
             <Route path="/market" component={Market}/>
             <Route path="/signin" component={SignIn}/>
             <Route path="/signup" component={SignUp}/>
+            <Route path="/pomodoro" component={Pomodoro}/>
           </div>
         </Router>
       </Provider>

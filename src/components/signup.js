@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import {firebaseApp} from '../firebase';
+import history from './history';
 // import {Link} from 'react-router-dom';
 
 
@@ -22,6 +23,10 @@ class SignUp extends Component {
     .catch(error => {
       this.setState({error})
     })
+  }
+
+  historyUpdate(){
+    history.replace('/signin')
   }
 
   render() {
@@ -50,7 +55,7 @@ class SignUp extends Component {
               </button>
             </div>
             <div className='error-msg' style={{margin: '1%'}}>{this.state.error.message}</div>
-            <a className='signin-link' href="/signin">Already a Member? Sign In Here!</a>
+            <a className='signin-link' onClick={() => this.historyUpdate()}>Already a Member? Sign In Here!</a>
           </div>
     )
   }
