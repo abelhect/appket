@@ -55,7 +55,7 @@ class SignUp extends Component {
               </button>
             </div>
             <div className='error-msg' style={{margin: '1%'}}>{this.state.error.message}</div>
-            <a className='signin-link' onClick={() => this.historyUpdate()}>Already a Member? Sign In Here!</a>
+            <a className='signin-link' onClick={() => this.historyUpdate()} style={{cursor:'pointer'}}>Already a Member? Sign In Here!</a>
           </div>
     )
   }

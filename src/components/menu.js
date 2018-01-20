@@ -4,12 +4,24 @@ import {Navbar, Nav, NavItem} from 'react-bootstrap';
 import '../css/menu.css';
 import {firebaseApp} from '../firebase';
 import {connect} from 'react-redux';
-
+import history from './history';
+import {signInUser} from '../actions/index-actions';
+// import {Router} from 'react-router-dom';
 
 class Menu extends Component {
 
   signOut() {
     firebaseApp.auth().signOut();
+    this.props.store.dispatch(signInUser(''));
+  }
+
+  historyUpdate(){
+    // console.log('user = ', this.props.state.signinReducer);
+    if (this.props.state.signinReducer === ''){
+      history.replace('/signin')
+    } else {
+      history.replace('/market')
+    }
   }
 
   render(){
@@ -18,7 +30,7 @@ class Menu extends Component {
       <Navbar collapseOnSelect>
         <Navbar.Header>
           <Navbar.Brand>
-            <a href="/home"><strong>{this.props.logo}</strong></a>
+          <a onClick={()=>this.historyUpdate()} style={{cursor:'pointer'}}><strong>{this.props.logo}</strong></a>
           </Navbar.Brand>
           <Navbar.Toggle />
         </Navbar.Header>
@@ -41,7 +53,7 @@ class Menu extends Component {
             </Navbar.Collapse>
             :
             null
-          }      
+          }
       </Navbar>
     )
   }

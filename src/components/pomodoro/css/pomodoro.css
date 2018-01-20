@@ -43,11 +43,11 @@ body{
   font-family: 'Press Start 2P', cursive;
   position: absolute;
   font-size: 35px;
-left: 50%;
-/* width: 400px; */
-height: 200px;
-margin-left: -80px;
-margin-top: -150px;
-color: white;
-text-shadow: -2px 2px #000;
+  left: 50%;
+  /* width: 400px; */
+  height: 200px;
+  margin-left: -80px;
+  margin-top: -150px;
+  color: white;
+  text-shadow: -2px 2px #000;
 }

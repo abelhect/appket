@@ -55,11 +55,11 @@ class SignIn extends Component {
           </button>
         </div>
         <div className='error-msg' style={{margin: '1%'}}>{this.state.error.message}</div>
-        <a className='signup-link' onClick={() => this.historyUpdate()}>Not a member yet? Sign Up Here!</a>
+        <a className='signup-link' onClick={() => this.historyUpdate()} style={{cursor:'pointer'}}>Not a member yet? Sign Up Here!</a>
       </div>
     )
   }
 
 }
-
+//
 export default SignIn;

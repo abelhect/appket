@@ -33,7 +33,7 @@ const App = (props) => (
       <Provider store={store}>
         <Router path="/" history={history}>
           <div>
-            <Menu logo="Papo's AppKet"/>
+            <Menu logo="Papo's AppKet" store={store}/>
             <Route path="/market" component={Market}/>
             <Route path="/signin" component={SignIn}/>
             <Route path="/signup" component={SignUp}/>
